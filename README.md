@@ -15,6 +15,11 @@ This does several things:
 2. Starts watching Sass
 3. Starts watching CoffeeScript
 
+### CoffeeScript Notes
+
+You can create as many CoffeeScript files in the `coffee` directory, and they
+will automatically be concatenated to make `app.js`.
+
 
 ## Examples
 
