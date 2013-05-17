@@ -18,13 +18,22 @@ This does several things:
 
 ## Examples
 
-### Don't use CoffeeScript
+### Run the server on a different port
 
-Delete the `coffee` directory. Ignore the warning that gets thrown.
+If you wanted to use port 9000, set the PORT environment variable. The quickest
+way to do this is:
+
+    PORT=9000 make dev
+
+Or edit the makefile and set a `PORT` variable.
 
 ### Don't use SASS
 
 Delete the `sass` directory. Ignore the warning that gets thrown.
+
+### Don't use CoffeeScript
+
+Delete the `coffee` directory. Ignore the warning that gets thrown.
 
 ### Background the server
 
