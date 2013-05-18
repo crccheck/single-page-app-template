@@ -21,6 +21,17 @@ You can create as many CoffeeScript files in the `coffee` directory, and they
 will automatically be concatenated to make `app.js`.
 
 
+## Requirements
+
+* Web server: python
+* Sass (with [Compass][Compass]): `gem install compass`
+* [CoffeeScript][CoffeeScript]: `sudo npm install -g coffee-script`
+* [Bower][Bower]: `sudo npm install -g bower`
+
+[Compass]: http://compass-style.org/install/
+[CoffeeScript]: http://coffeescript.org/
+[Bower]: https://github.com/bower/bower
+
 ## Examples
 
 ### Run the server on a different port
